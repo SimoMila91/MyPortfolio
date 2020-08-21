@@ -1,0 +1,22 @@
+{
+  "name": "firstprojectstart2impact",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SimoMila91/firstProjectStart2Impact.git"
+  },
+  "author": "Simone Milanesio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SimoMila91/firstProjectStart2Impact/issues"
+  },
+  "homepage": "https://github.com/SimoMila91/firstProjectStart2Impact#readme",
+  "dependencies": {
+    "mdbootstrap": "^4.19.1"
+  }
+}
