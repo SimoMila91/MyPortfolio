@@ -33,7 +33,7 @@ function arrayPro() {
 
 $(document).ready(function() {
     $(window).scroll(function() {
-        if ($(document).scrollTop() >= 1000) {
+        if ($(document).scrollTop() > 1500) {
             $(".bar").each(function() {
                 $(this).find(".bar-inner").animate({
                     width: $(this).attr("data-width")
