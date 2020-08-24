@@ -1,7 +1,9 @@
-/* Title Section */
-#title {
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+body {
+    color: #6b6b6b;
+    text-align: left;
     font-family: 'Abel', sans-serif;
-    font-size: 15px;
 }
 
 .border-style {
@@ -9,12 +11,71 @@
     background-color: #f5f5f5;
 }
 
+.important-word {
+    color: #16a6b6;
+}
+
+h3 {
+    font-family: 'Barlow', sans-serif;
+    color: #181818;
+}
+
+p {
+    font-size: 19px;
+}
+
+.title-paragh-size {
+    font-size: 22px;
+}
+
+.p-space {
+    padding-top: 3%;
+}
+
+.p-content-space {
+    display: contents;
+}
+
+.btn-outline-default {
+    border: 2px solid #16a6b6 !important;
+    color: #16a6b6  !important;
+}
+
+.border-img {
+    border: 3px solid #16a6b6;
+}
+
+/* Button scroll up style */
+
+#topBtn {
+    position: fixed;
+    bottom: 30%;
+    right: 40px;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #16a6b6;
+    border-radius: 50px;
+    color: white;
+    background-color: #cfd3d6;
+    outline: none;
+    -webkit-box-shadow: 1px 3px 7px 3px #CDE;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    -moz-box-shadow:    1px 3px 7px 3px #CDE;  /* Firefox 3.5 - 3.6 */
+    box-shadow:         1px 3px 7px 3px #CDE;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
+
+
+
+/* Title Section */
+#title {
+    font-size: 20px;
+}
+
 .nav-style {
     margin: 0 20px 20px 20px;
 }
 
 nav a {
-    color: #6b6b6b !important;
+    color: #181818 !important;
 }
 
 nav a.underline-menu-style:hover {
@@ -77,7 +138,7 @@ nav a.underline-menu-style:hover {
 }
 
 .style-item {
- margin: 20% 20px 20px 20px;
+ margin: 20% 50px 20px 50px;
 }
 
 .page-border {
@@ -85,7 +146,136 @@ nav a.underline-menu-style:hover {
     margin: 20px !important;
 }
 
-@media screen and (max-width: 720px) {
+.nameTitle {
+    color: #181818;
+    font-family: 'Barlow', sans-serif;
+    font-size: 3.57em;
+    
+}
+
+.name {
+    padding: 8% 20% 1% 20%;
+}
+
+.logo-color {
+    color: #16a6b6;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+/* Profile section */
+
+.profile {
+    padding: 14% 10% 10% 10%;
+    line-height: 2;
+}
+
+.profile div img {
+    width: 70%;
+    float: right;
+}
+
+/* Skills section */
+
+#skills {
+    padding: 5% 10% 10% 10%;
+}
+
+.posit-skill {
+    margin-left: 10%;
+    margin-bottom: 15px;
+}
+
+.bar {
+    width: 90%;
+    height: 20px;
+    background: #fff;
+    border-radius: 5px;
+    position: relative;
+    transition: all 2s linear;
+  }
+  
+.bar-1,
+ .my-skills {
+    width: 80%;
+    margin: 10px auto 25px;
+  }
+  
+.bar-inner {
+   width: 0;
+    height: 20px;
+    line-height: 35px;
+    background: #16a6b6;
+    border-radius: 5px 0 0 5px;
+  }
+  
+.bar-percent {
+   position: absolute;
+    right: 5px;
+    top: -3px;
+    font-size: 18px;
+  }
+
+/* Project section */
+
+#project {
+    padding: 5% 20% 10% 20%;
+}
+
+#project h3 {
+    margin-bottom: 50px;
+}
+
+.card-title {
+    font-family: 'Share Tech Mono', monospace !important;
+    color: #16a6b6;
+}
+
+.card-text {
+    color: #6b6b6b;
+    font-family: 'Abel', sans-serif !important;
+    font-size: 18px !important;
+}
+
+/* Footer section */
+
+#contact {
+    padding: 10% 10% 1% 10%;
+    text-align: center;
+}
+
+#contact h1 {
+    font-family: 'Barlow', sans-serif;
+    line-height: 3;
+}
+
+#contact p {
+    margin-left: 37%;
+    margin-right: 37%;
+    color: #181818;
+    
+}
+
+#contact h4 {
+    color: #181818;
+    margin-bottom: 13px;
+}
+
+#contact button {
+    font-size: 17px;
+}
+
+.footer-copy {
+    margin-top: 10%;
+    margin-bottom: 0;
+    font-size: 15px;
+}
+
+
+
+
+/* Mobile version */
+
+@media screen and (max-width: 800px) {
     .navbar-expand-sm .navbar-nav {
         flex-direction: column;
     }
@@ -94,12 +284,16 @@ nav a.underline-menu-style:hover {
         order: -1;
 
     }
+
+    .distance {
+        margin-top: 40px;
+    }
+
 }
 
-#nameTitle {
-    color: #181818;
-    font-family: 'Barlow', sans-serif;
-    font-size: 3.5rem;
-    padding: 0 5% 6% 5%;
+@media screen and (max-width: 1480px) {
+    #contact p {
+        margin-left: 30%;
+        margin-right: 30%;
+    }
 }
-
