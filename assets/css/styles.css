@@ -227,11 +227,11 @@ nav a.underline-menu-style:hover {
 
 .card-title {
     font-family: 'Share Tech Mono', monospace !important;
-    color: #16a6b6;
+    color: #6a6a65;
 }
 
 .card-text {
-    color: #6b6b6b;
+    color: #6a6a65;
     font-family: 'Abel', sans-serif !important;
     font-size: 18px !important;
 }
