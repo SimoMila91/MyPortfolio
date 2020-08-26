@@ -19,7 +19,7 @@ $(document).ready(function() {
 let text = ["I'm a pro", "I'm a programmer.", "And this is my portfolio."];
 let word = document.getElementById("arrayTitle");
 let counter = 0;
-setInterval(arrayPro, 2000);
+setInterval(arrayPro, 1500);
 function arrayPro() {
     word.innerHTML = text[counter];
     counter++;
