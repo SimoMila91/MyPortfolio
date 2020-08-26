@@ -285,8 +285,7 @@ nav a.underline-menu-style:hover {
 .footer-link {
     color: #6a6a65;
     font-size: 20px;
-    margin-bottom: 2px !important;
-
+    margin-bottom: 10px;
 }
 
 .social {
