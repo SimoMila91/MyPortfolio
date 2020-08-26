@@ -329,6 +329,10 @@ nav a.underline-menu-style:hover {
         margin-left: 15px;
         margin-right: 15px;
     }
+
+    #arrayTitle {
+        word-wrap: break-word;
+    }
 }
 
 @media screen and (max-width: 725px) {
