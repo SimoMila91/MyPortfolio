@@ -1,18 +1,18 @@
 // Scroll top button 
-$(document).ready(function() {
-    $(window).scroll(function() {
-        if ($(this).scrollTop() > 900){
+$(document).ready(function () {
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 900) {
             $("#topBtn").fadeIn();
         } else {
             $("#topBtn").fadeOut();
         }
-     });
+    });
 
-     $("#topBtn").click(function() {
-         $("html,body").animate({
-             scrollTop: 0
-         },800);
-     });
+    $("#topBtn").click(function () {
+        $("html,body").animate({
+            scrollTop: 0
+        }, 800);
+    });
 });
 
 
@@ -26,17 +26,17 @@ function arrayPro() {
     if (counter >= text.length) {
         word.innerHTML = text[2];
     };
-}; 
+};
 
 // Animated Responsive Skill Bar 
 
-$(document).ready(function() {
-    $(window).scroll(function() {
-        if ($(document).scrollTop() > 1500) {
-            $(".bar").each(function() {
+$(document).ready(function () {
+    $(window).scroll(function () {
+        if ($(document).scrollTop() > 1300) {
+            $(".bar").each(function () {
                 $(this).find(".bar-inner").animate({
                     width: $(this).attr("data-width")
-                },2000)
+                }, 2000)
             });
         };
     });
@@ -48,6 +48,6 @@ let date = new Date();
 
 let year = date.getFullYear();
 
-$(document).ready(function() {
+$(document).ready(function () {
     $('#year').text(year);
 });
