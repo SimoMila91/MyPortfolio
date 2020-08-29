@@ -21,10 +21,10 @@ let word = document.getElementById("arrayTitle");
 let counter = 0;
 setInterval(arrayPro, 1500);
 function arrayPro() {
-    word.innerHTML = text[counter];
+    word.textContent = text[counter];
     counter++;
     if (counter >= text.length) {
-        word.innerHTML = text[2];
+        word.textContent = text[2];
     };
 };
 
