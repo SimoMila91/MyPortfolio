@@ -231,6 +231,21 @@ nav a.underline-menu-style:hover {
     border: none !important;
 }
 
+.link-color-github {
+  color: inherit;
+}
+
+.github-link {
+  position: absolute;
+  right: 8%;
+  bottom: 5%;
+  font-size: 27px;
+}
+
+.github-link:hover {
+  font-size: 29px;
+  color: #16a6b6;
+}
 /* Footer section */
 
 #contact {
